@@ -12,7 +12,7 @@ def calcular_indice(e, n):
 
 
 if __name__ == '__main__':
-    file = open('tabla_3.1.txt', 'r')
+    file = open('tablas/tabla_3.1.txt', 'r')
     elem = file.read().strip().split('\n')
     num = [float(e) for e in elem]
     n = 5

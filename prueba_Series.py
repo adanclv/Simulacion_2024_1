@@ -30,7 +30,7 @@ def test_chi_cuadrado(estadistico, grados_libertad, nivel_significancia):
 
 
 if __name__ == '__main__':
-    file = open('tabla_3.1.txt', 'r')
+    file = open('tablas/tabla_3.1.txt', 'r')
     elem = file.read().strip().split('\n')
     file.close()
     num = [float(e) for e in elem]

@@ -1,7 +1,7 @@
 import math
 
 if __name__ == '__main__':
-    file = open('apendice_A.txt','r')
+    file = open('tablas/apendice_A.txt', 'r')
     elem = file.read().strip().split('\n')
     num = [float(e) for e in elem]
 
