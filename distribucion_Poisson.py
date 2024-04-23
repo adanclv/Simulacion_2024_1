@@ -1,6 +1,7 @@
 import math
 import random as rand
 
+
 def distribucion_poisson(lambd):
     L = math.exp(-lambd)
     p = 1.0
@@ -8,7 +9,7 @@ def distribucion_poisson(lambd):
 
     while p > L:
         k += 1
-        p = rand.random()
+        p *= rand.random()
 
     return k -1
 
